@@ -4,7 +4,7 @@ import './styles.css';
 
 const projects = [
   { title: 'Limpieza y análisis de datos', description: 'Proyecto de análisis de datos con limpieza y transformación de información mediante Python, seguido de la creación de un dashboard interactivo en Power BI.', conclusion: 'El análisis muestra 30 incidentes registrados. Aunque el 76,67% se encuentra cerrado, el cumplimiento del SLA alcanza el 40%, por lo que se recomienda priorizar los incidentes críticos y reforzar la prevención sobre phishing y malware.', tags: ['Python', 'Power BI', 'Análisis de datos'], link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data', linkLabel: 'Ver código en GitHub ↗', pdf: '/panel-operaciones.pdf' },
-  { title: 'AlertOps Analytics', description: 'Dashboard de monitoreo operativo para analizar alertas, estados de casos, severidad, falsos positivos y cumplimiento de SLA.', conclusion: 'Proyecto orientado a transformar datos operativos en indicadores claros para priorizar alertas y mejorar la eficiencia del proceso de revisión.', tags: ['SQL', 'Power BI', 'Análisis operativo'], link: 'https://portfolio-data-pi.vercel.app/', linkLabel: 'Ver proyecto publicado ↗' },
+  { title: 'AlertOps Analytics', description: 'Dashboard de monitoreo operativo para analizar alertas, estados de casos, severidad, falsos positivos y cumplimiento de SLA.', conclusion: 'Proyecto orientado a transformar datos operativos en indicadores claros para priorizar alertas y mejorar la eficiencia del proceso de revisión.', tags: ['SQL', 'Power BI', 'Análisis operativo'], link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/alertops-analytics', linkLabel: 'Ver código en GitHub ↗', pdf: '/alertops-dashboard.pdf' },
 ];
 
 function App() {

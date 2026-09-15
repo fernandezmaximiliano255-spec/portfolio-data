@@ -1,0 +1,25 @@
+alert_id,alert_date,customer_segment,channel,rule_name,amount_usd,risk_score,status,severity,resolution_type,resolution_hours,month,is_open,is_false_positive,sla_hours,sla_breached,priority
+A-1001,2026-01-03,retail,web,Multiple transactions,1250.5,82,closed,high,false_positive,6.0,2026-01,False,True,12,False,high
+A-1002,2026-01-04,retail,mobile,Velocity threshold,2400.0,91,escalated,critical,confirmed_risk,18.0,2026-01,True,False,8,True,critical
+A-1003,2026-01-05,business,api,Unusual location,8900.25,77,closed,high,false_positive,10.0,2026-01,False,True,12,False,high
+A-1004,2026-01-07,retail,web,Multiple transactions,310.0,43,closed,medium,false_positive,5.0,2026-01,False,True,24,False,low
+A-1005,2026-01-09,premium,mobile,New device,5400.0,88,in_review,high,,,2026-01,True,False,12,False,high
+A-1006,2026-01-11,retail,web,Velocity threshold,1850.75,69,closed,medium,confirmed_risk,14.0,2026-01,False,False,24,False,medium
+A-1007,2026-01-14,business,api,Unusual location,15200.0,95,escalated,critical,confirmed_risk,22.0,2026-01,True,False,8,True,critical
+A-1008,2026-01-18,retail,mobile,Multiple transactions,620.4,38,closed,low,false_positive,4.0,2026-01,False,True,48,False,low
+A-1009,2026-01-20,premium,web,New device,780.0,58,closed,medium,false_positive,8.0,2026-01,False,True,24,False,medium
+A-1010,2026-01-23,retail,web,Velocity threshold,4200.0,86,in_review,high,,,2026-01,True,False,12,False,high
+A-1011,2026-02-02,business,api,Multiple transactions,6700.0,73,closed,high,confirmed_risk,16.0,2026-02,False,False,12,True,medium
+A-1012,2026-02-04,retail,mobile,Unusual location,450.2,31,closed,low,false_positive,3.0,2026-02,False,True,48,False,low
+A-1013,2026-02-07,premium,web,New device,9100.0,89,escalated,critical,confirmed_risk,20.0,2026-02,True,False,8,True,high
+A-1014,2026-02-10,retail,web,Multiple transactions,230.0,27,closed,low,false_positive,2.0,2026-02,False,True,48,False,low
+A-1015,2026-02-13,business,mobile,Velocity threshold,3400.0,79,in_review,high,,,2026-02,True,False,12,False,high
+A-1016,2026-02-16,retail,api,Unusual location,1250.0,64,closed,medium,false_positive,11.0,2026-02,False,True,24,False,medium
+A-1017,2026-02-19,premium,mobile,New device,22000.0,97,escalated,critical,confirmed_risk,30.0,2026-02,True,False,8,True,critical
+A-1018,2026-02-22,retail,web,Multiple transactions,510.8,42,closed,medium,false_positive,7.0,2026-02,False,True,24,False,low
+A-1019,2026-03-01,business,api,Velocity threshold,5600.0,84,in_review,high,,,2026-03,True,False,12,False,high
+A-1020,2026-03-03,retail,mobile,Unusual location,780.0,36,closed,low,false_positive,4.0,2026-03,False,True,48,False,low
+A-1021,2026-03-05,premium,web,New device,11800.0,92,escalated,critical,confirmed_risk,26.0,2026-03,True,False,8,True,critical
+A-1022,2026-03-08,retail,web,Multiple transactions,900.0,51,closed,medium,false_positive,9.0,2026-03,False,True,24,False,medium
+A-1023,2026-03-11,business,mobile,Unusual location,2500.0,71,closed,high,confirmed_risk,15.0,2026-03,False,False,12,True,medium
+A-1024,2026-03-14,retail,api,Velocity threshold,1450.0,63,in_review,medium,,,2026-03,True,False,24,False,medium
