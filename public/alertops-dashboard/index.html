@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dashboard web de monitoreo operativo de alertas." />
+    <title>AlertOps Analytics · Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand"><span class="brand-mark">AO</span><div><strong>AlertOps</strong><small>Analytics workspace</small></div></div>
+        <div class="header-meta"><span class="live-dot"></span> Datos simulados · Marzo 2026</div>
+      </header>
+
+      <section class="hero">
+        <div><p class="eyebrow">MONITOREO OPERATIVO</p><h1>Panel de alertas</h1><p class="hero-copy">Una vista clara para priorizar casos, detectar riesgos y mejorar el cumplimiento operativo.</p></div>
+        <div class="hero-badge"><span>●</span> Operación bajo control</div>
+      </section>
+
+      <section class="filters-panel">
+        <div class="filter-heading"><div><span class="eyebrow">FILTROS</span><h2>Explorá los casos</h2></div><button id="resetFilters" class="ghost-button">Limpiar filtros</button></div>
+        <div class="filters">
+          <label>Severidad<select id="severityFilter"><option value="all">Todas</option><option value="critical">Crítica</option><option value="high">Alta</option><option value="medium">Media</option><option value="low">Baja</option></select></label>
+          <label>Estado<select id="statusFilter"><option value="all">Todos</option><option value="closed">Cerradas</option><option value="in_review">En revisión</option><option value="escalated">Escaladas</option></select></label>
+          <label>Canal<select id="channelFilter"><option value="all">Todos</option><option value="api">API</option><option value="web">Web</option><option value="mobile">Móvil</option></select></label>
+        </div>
+      </section>
+
+      <section class="metrics-grid">
+        <article class="metric-card"><span class="metric-icon blue">◈</span><p>Alertas totales</p><strong id="totalMetric">24</strong><small id="totalTrend">Base analizada</small></article>
+        <article class="metric-card"><span class="metric-icon orange">!</span><p>Casos abiertos</p><strong id="openMetric">10</strong><small>En revisión o escalados</small></article>
+        <article class="metric-card"><span class="metric-icon red">↗</span><p>Riesgo crítico</p><strong id="criticalMetric">5</strong><small>Requieren prioridad</small></article>
+        <article class="metric-card"><span class="metric-icon green">✓</span><p>Cumplimiento SLA</p><strong id="slaMetric">63,16%</strong><small>Sobre casos resueltos</small></article>
+      </section>
+
+      <section class="charts-grid">
+        <article class="panel trend-panel"><div class="panel-heading"><div><span class="eyebrow">TENDENCIA</span><h2>Alertas por mes</h2></div><span class="panel-value">24 <small>total</small></span></div><div id="trendChart" class="trend-chart"></div></article>
+        <article class="panel"><div class="panel-heading"><div><span class="eyebrow">DISTRIBUCIÓN</span><h2>Estado de las alertas</h2></div></div><div class="status-content"><div id="donut" class="donut"><div><strong id="donutTotal">24</strong><span>alertas</span></div></div><div id="statusLegend" class="legend"></div></div></article>
+        <article class="panel severity-panel"><div class="panel-heading"><div><span class="eyebrow">NIVEL DE RIESGO</span><h2>Alertas por severidad</h2></div></div><div id="severityChart" class="bar-chart"></div></article>
+        <article class="panel"><div class="panel-heading"><div><span class="eyebrow">REGLAS</span><h2>Alertas por regla</h2></div></div><div id="ruleChart" class="bar-chart compact"></div></article>
+      </section>
+
+      <section class="panel table-panel"><div class="panel-heading"><div><span class="eyebrow">SEGUIMIENTO</span><h2>Casos que requieren atención</h2></div><span id="caseCount" class="result-count">10 casos</span></div><div class="table-wrap"><table><thead><tr><th>ID</th><th>Regla</th><th>Segmento</th><th>Canal</th><th>Riesgo</th><th>Severidad</th><th>Estado</th><th>Monto</th></tr></thead><tbody id="alertsTable"></tbody></table></div></section>
+
+      <section class="conclusion"><div class="conclusion-mark">✦</div><div><p class="eyebrow">LECTURA OPERATIVA</p><h2>Conclusión del análisis</h2><p id="conclusionText">El 41,7% de las alertas permanece abierto o escalado. El cumplimiento del SLA alcanza el 63,16%, por lo que conviene priorizar los casos críticos y revisar las reglas que generan mayor cantidad de falsos positivos.</p></div></section>
+      <footer><span>AlertOps Analytics</span><span>Proyecto de portfolio · Datos simulados</span></footer>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
