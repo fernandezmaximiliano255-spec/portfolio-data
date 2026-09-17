@@ -1,0 +1,10 @@
+﻿campo,definicion
+id_incidente,Identificador único del incidente
+cliente,Organización afectada
+categoria,Tipo de amenaza o hallazgo
+severidad,Nivel de impacto
+estado,Estado operativo del caso
+analista,Analista asignado
+tiempo_respuesta_horas,Horas entre detección y primera respuesta
+tiempo_resolucion_horas,Horas entre detección y cierre
+cumple_sla,Primera respuesta dentro del SLA

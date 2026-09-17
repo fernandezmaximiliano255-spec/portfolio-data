@@ -1,0 +1,31 @@
+﻿id_incidente,cliente,categoria,severidad,estado,analista,fecha_deteccion,fecha_respuesta,fecha_cierre,canal,descripcion,sla_respuesta_horas,tiempo_respuesta_horas,tiempo_resolucion_horas,cumple_sla,mes
+INC-001,acme sa,phishing,crítica,cerrado,juan perez,2026-03-01 08:15,2026-03-01 09:00,2026-01-03 14:20,email,correo con enlace malicioso,2,0.75,-1361.9166666666667,True,2026-03
+INC-002,globant,malware,alta,cerrado,ana gomez,,,,edr,archivo ejecutable detectado,4,,,False,
+INC-003,acme sa,acceso no autorizado,media,en analisis,juan perez,2026-05-01 12:40,2026-05-01 15:20,,siem,login desde país inusual,8,2.6666666666666665,,True,2026-05
+INC-004,banco rio,vulnerabilidad,alta,cerrado,lucia fernandez,,,,scanner,servidor con parche pendiente,4,,,False,
+INC-005,techint,phishing,baja,cerrado,marcos lopez,2026-07-01 09:30,2026-07-01 10:00,,email,campaña de spam reportada,12,0.5,,True,2026-07
+INC-006,globant,ransomware,crítica,en analisis,ana gomez,2026-08-01 22:10,2026-08-01 22:40,,edr,comportamiento de cifrado,1,0.5,,True,2026-08
+INC-007,acme sa,malware,alta,cerrado,juan perez,2026-10-01 07:00,2026-10-01 08:45,,edr,macro sospechosa en documento,4,1.75,,True,2026-10
+INC-008,banco rio,acceso no autorizado,media,cerrado,lucia fernandez,2026-11-01 18:20,2026-11-01 19:00,,siem,cuenta bloqueada por fuerza bruta,8,0.6666666666666666,,True,2026-11
+INC-009,techint,vulnerabilidad,alta,cerrado,marcos lopez,2026-12-01 08:00,2026-12-01 08:20,,scanner,cve crítica en aplicación,4,0.3333333333333333,,True,2026-12
+INC-010,acme sa,phishing,baja,cerrado,juan perez,,,,email,usuario reporta mensaje falso,12,,,False,
+INC-011,globant,malware,alta,cerrado,ana gomez,,,,edr,payload detenido por endpoint,4,,,False,
+INC-012,banco rio,exfiltracion,crítica,en analisis,lucia fernandez,,,,siem,volumen anómalo de transferencia,1,,,False,
+INC-013,techint,phishing,media,cerrado,marcos lopez,,,,email,credenciales solicitadas por correo,8,,,False,
+INC-014,acme sa,vulnerabilidad,alta,cerrado,juan perez,,,,scanner,biblioteca desactualizada,4,,,False,
+INC-015,globant,acceso no autorizado,media,en analisis,ana gomez,,,,siem,token inválido repetido,8,,,False,
+INC-016,banco rio,malware,crítica,cerrado,lucia fernandez,,,,edr,dropper bloqueado,1,,,False,
+INC-017,techint,phishing,baja,cerrado,marcos lopez,,,,email,newsletter mal clasificado,12,,,False,
+INC-018,acme sa,malware,alta,cerrado,juan perez,,,,edr,script de powershell sospechoso,4,,,False,
+INC-019,globant,vulnerabilidad,media,cerrado,ana gomez,,,,scanner,configuración insegura,8,,,False,
+INC-020,banco rio,phishing,alta,cerrado,lucia fernandez,2026-01-02 08:20,2026-01-02 09:00,,email,suplantación de proveedor,4,0.6666666666666666,,True,2026-01
+INC-021,techint,malware,crítica,en analisis,marcos lopez,2026-03-02 23:10,2026-03-02 23:30,,edr,detección de troyano,1,0.3333333333333333,,True,2026-03
+INC-022,acme sa,exfiltracion,alta,cerrado,juan perez,2026-05-02 14:00,2026-05-02 15:00,,siem,consulta masiva de datos,4,1.0,,True,2026-05
+INC-023,globant,phishing,media,cerrado,ana gomez,2026-07-02 09:15,2026-07-02 10:00,,email,link acortado sospechoso,8,0.75,,True,2026-07
+INC-024,banco rio,vulnerabilidad,baja,cerrado,lucia fernandez,2026-09-02 15:00,,,scanner,hallazgo informativo,12,,,False,2026-09
+INC-025,techint,acceso no autorizado,alta,cerrado,marcos lopez,2026-10-02 02:00,2026-10-02 05:30,,siem,intentos de login automatizados,4,3.5,,True,2026-10
+INC-026,acme sa,phishing,media,abierto,juan perez,2026-12-02 11:00,,,email,posible fraude interno,8,,,False,2026-12
+INC-027,globant,ransomware,crítica,cerrado,ana gomez,,,,edr,alerta de comportamiento ransomware,1,,,False,
+INC-028,banco rio,malware,alta,cerrado,lucia fernandez,,,,edr,archivo adjunto malicioso,4,,,False,
+INC-029,techint,vulnerabilidad,media,cerrado,marcos lopez,,,,scanner,parche de sistema operativo pendiente,8,,,False,
+INC-030,acme sa,exfiltracion,crítica,en analisis,juan perez,,,,siem,transferencia fuera de patrón,1,,,False,
