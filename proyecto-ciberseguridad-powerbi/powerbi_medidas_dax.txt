@@ -1,0 +1,19 @@
+Incidentes totales = COUNTROWS(incidentes_limpios)
+
+Incidentes críticos =
+CALCULATE([Incidentes totales], incidentes_limpios[severidad] = "crítica")
+
+Incidentes abiertos =
+CALCULATE([Incidentes totales], incidentes_limpios[estado] <> "cerrado")
+
+SLA cumplido % =
+DIVIDE(
+    CALCULATE([Incidentes totales], incidentes_limpios[cumple_sla] = TRUE()),
+    [Incidentes totales]
+)
+
+Tiempo medio de respuesta (h) =
+AVERAGE(incidentes_limpios[tiempo_respuesta_horas])
+
+Tiempo medio de resolución (h) =
+AVERAGE(incidentes_limpios[tiempo_resolucion_horas])
