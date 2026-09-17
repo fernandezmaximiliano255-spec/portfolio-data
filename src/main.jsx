@@ -5,11 +5,19 @@ import './styles.css';
 
 
 
+
+
+
+
 const projects = [
-  { title: 'Limpieza y análisis de datos', description: 'Proyecto de análisis de datos con limpieza y transformación de información mediante Python, seguido de la creación de un dashboard interactivo en Power BI.', conclusion: 'El análisis muestra 30 incidentes registrados. Aunque el 76,67% se encuentra cerrado, el cumplimiento del SLA alcanza el 40%, por lo que se recomienda priorizar los incidentes críticos y reforzar la prevención sobre phishing y malware.', tags: ['Python', 'Power BI', 'Análisis de datos'], link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/proyecto-ciberseguridad-powerbi', linkLabel: 'Ver archivos del proyecto en GitHub ↗', pdf: '/panel-operaciones-horizontal.pdf' },
+  { title: 'Limpieza y análisis de datos', description: 'Proyecto de análisis de datos con limpieza y transformación de información mediante Python, seguido de la creación de un dashboard interactivo en Power BI.', conclusion: 'El análisis muestra 30 incidentes registrados. Aunque el 76,67% se encuentra cerrado, el cumplimiento del SLA alcanza el 40%, por lo que se recomienda priorizar los incidentes críticos y reforzar la prevención sobre phishing y malware.', tags: ['Python', 'Power BI', 'Análisis de datos'], link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/proyecto-ciberseguridad-powerbi', linkLabel: 'Ver código en GitHub ↗', pdf: '/panel-operaciones-horizontal.pdf' },
   { title: 'AlertOps Analytics', description: 'Dashboard de monitoreo operativo para analizar alertas, estados de casos, severidad, falsos positivos y cumplimiento de SLA.', conclusion: 'Proyecto orientado a transformar datos operativos en indicadores claros para priorizar alertas y mejorar la eficiencia del proceso de revisión.', tags: ['SQL', 'Power BI', 'Análisis operativo'], link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/alertops-analytics', linkLabel: 'Ver código en GitHub ↗', pdf: '/alertops-dashboard.pdf', web: '/alertops-dashboard/' },
   { title: 'AutoData Comercial', description: 'Análisis comercial de una agencia ficticia de vehículos en Argentina, con información de ventas, facturación, márgenes, sucursales y vendedores.', conclusion: 'El dashboard permite identificar el desempeño comercial y responder preguntas de negocio mediante consultas SQL sobre una base PostgreSQL, con indicadores y visualizaciones desarrollados en Power BI.', tags: ['PostgreSQL', 'SQL', 'Power BI', 'Análisis comercial'], link: 'https://github.com/fernandezmaximiliano255-spec/autodata-comercial', linkLabel: 'Ver proyecto en GitHub ↗', pdf: 'https://raw.githubusercontent.com/fernandezmaximiliano255-spec/autodata-comercial/main/PanelComercialVehiculos-horizontal.pdf' },
 ];
+
+
+
+
 
 
 
@@ -30,7 +38,15 @@ function App() {
 
 
 
+
+
+
+
 createRoot(document.getElementById('root')).render(<StrictMode><App /></StrictMode>);
+
+
+
+
 
 
 
