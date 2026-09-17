@@ -49,10 +49,6 @@ Tabla de incidentes con drill-through, barras por categoría y analista, y dispe
 
 Cumplimiento por cliente, tendencia mensual, matriz de severidad vs. cumplimiento y tabla de incidentes fuera de SLA.
 
-## Texto breve para LinkedIn
-
-> Desarrollé un dashboard de operaciones de ciberseguridad en Power BI a partir de datos simulados de un SOC. Construí un flujo ETL en Python para detectar duplicados, normalizar categorías y fechas, tratar valores faltantes y calcular métricas de SLA. El informe permite analizar volumen, severidad, tiempos de respuesta y resolución por cliente y período.
-
 ## Preguntas que el proyecto responde
 
 - ¿Qué clientes concentran más incidentes?
