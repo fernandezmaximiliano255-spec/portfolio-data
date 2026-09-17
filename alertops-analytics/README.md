@@ -33,7 +33,3 @@ Analizar el volumen y la calidad de las alertas para identificar:
 - Porcentaje de falsos positivos.
 - Cumplimiento de SLA.
 - Alertas pendientes por prioridad.
-
-## Nota
-
-Este proyecto utiliza datos simulados con fines educativos y de portfolio. No representa información real de clientes ni experiencia laboral en una organización financiera.
