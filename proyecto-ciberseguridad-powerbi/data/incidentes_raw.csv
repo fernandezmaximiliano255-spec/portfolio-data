@@ -1,0 +1,32 @@
+id_incidente,cliente,categoria,severidad,estado,analista,fecha_deteccion,fecha_respuesta,fecha_cierre,canal,descripcion,sla_respuesta_horas
+INC-001,  ACME SA ,phishing,CRITICA, cerrado, juan perez,2026-01-03 08:15,2026-01-03 09:00,03/01/2026 14:20,email,Correo con enlace malicioso,2
+INC-002,Globant,malware,Alta,CERRADO,ANA GOMEZ,03/01/2026 10:05,03/01/2026 11:10,2026/01/04 16:30,EDR,Archivo ejecutable detectado,4
+INC-003,acme sa ,Acceso no autorizado,media,En análisis, Juan Perez,2026-01-05 12:40,2026-01-05 15:20,,SIEM,Login desde país inusual,8
+INC-004, Banco Río ,vulnerabilidad,ALTA,cerrado,Lucia fernandez,05-01-2026 13:00,05-01-2026 14:00,06-01-2026 10:00,scanner,Servidor con parche pendiente,4
+INC-005,Techint,phishing,BAJA,cerrado,marcos lopez,2026-01-07 09:30,2026-01-07 10:00,2026-01-07 11:00,email,Campaña de spam reportada,12
+INC-006,Globant,ransomware,CRITICA,En análisis,Ana Gomez,2026-01-08 22:10,2026-01-08 22:40,,EDR,Comportamiento de cifrado,1
+INC-007,ACME SA,malware,alta,cerrado,juan perez,2026-01-10 07:00,2026-01-10 08:45,2026-01-10 12:30,EDR,Macro sospechosa en documento,4
+INC-008,Banco Rio,acceso no autorizado,Media,Cerrado,lucia fernandez,2026-01-11 18:20,2026-01-11 19:00,2026-01-12 09:15,SIEM,Cuenta bloqueada por fuerza bruta,8
+INC-009,Techint,VULNERABILIDAD,alta,CERRADO,Marcos Lopez,2026-01-12 08:00,2026-01-12 08:20,2026-01-14 15:00,scanner,CVE crítica en aplicación,4
+INC-010,acme sa,phishing,BAJA,cerrado,Juan Perez,2026-01-15 11:45,2026-01-15 13:00,2026-01-15 14:10,email,Usuario reporta mensaje falso,12
+INC-011,Globant,Malware,Alta, cerrado, Ana Gomez,2026-01-16 14:30,2026-01-16 15:10,2026-01-17 10:20,EDR,Payload detenido por endpoint,4
+INC-012,Banco Rio,exfiltracion,CRITICA,En análisis,Lucia Fernandez,2026-01-18 03:15,2026-01-18 03:45,,SIEM,Volumen anómalo de transferencia,1
+INC-013,Techint,phishing,media,cerrado,Marcos Lopez,2026-01-19 16:00,2026-01-19 18:30,2026-01-20 09:00,email,Credenciales solicitadas por correo,8
+INC-014,ACME SA ,vulnerabilidad,Alta,cerrado,Juan Perez,2026-01-21 09:10,2026-01-21 10:00,2026-01-22 17:00,scanner,Biblioteca desactualizada,4
+INC-015,Globant,acceso no autorizado,MEDIA,En análisis,Ana Gomez,2026-01-22 20:30,2026-01-22 22:00,,SIEM,Token inválido repetido,8
+INC-016,Banco Río,malware,CRITICA,cerrado,Lucia Fernandez,2026-01-24 06:50,2026-01-24 07:20,2026-01-24 13:00,EDR,Dropper bloqueado,1
+INC-017,Techint,phishing,BAJA,Cerrado,Marcos Lopez,2026-01-25 10:00,2026-01-25 11:00,2026-01-25 12:00,email,Newsletter mal clasificado,12
+INC-018,ACME SA,malware,ALTA,CERRADO,Juan Perez,2026-01-27 12:00,2026-01-27 16:30,2026-01-28 10:00,EDR,Script de PowerShell sospechoso,4
+INC-019,Globant,vulnerabilidad,media,cerrado,Ana Gomez,2026-01-28 09:00,2026-01-28 10:00,2026-01-30 14:00,scanner,Configuración insegura,8
+INC-020,Banco Rio,phishing,Alta,CERRADO,Lucia Fernandez,2026-02-01 08:20,2026-02-01 09:00,2026-02-01 12:00,email,Suplantación de proveedor,4
+INC-020,banco rio, PHISHING ,alta,cerrado, lucia fernandez ,2026-02-01 08:20,2026-02-01 09:00,2026-02-01 12:00,email,Suplantación de proveedor,4
+INC-021,Techint,malware,CRITICA,EN ANÁLISIS,Marcos Lopez,2026-02-03 23:10,2026-02-03 23:30,,EDR,Detección de troyano,1
+INC-022,ACME SA,exfiltración,ALTA,cerrado,Juan Perez,2026-02-05 14:00,2026-02-05 15:00,2026-02-06 11:00,SIEM,Consulta masiva de datos,4
+INC-023,Globant,phishing,media,cerrado,Ana Gomez,2026-02-07 09:15,2026-02-07 10:00,2026-02-07 12:30,email,Link acortado sospechoso,8
+INC-024,Banco Rio,vulnerabilidad,BAJA,cerrado,Lucia Fernandez,2026-02-09 15:00,,2026-02-10 10:00,scanner,Hallazgo informativo,12
+INC-025,Techint,acceso no autorizado,Alta,cerrado,Marcos Lopez,2026-02-10 02:00,2026-02-10 05:30,2026-02-11 09:00,SIEM,Intentos de login automatizados,4
+INC-026,ACME SA,phishing,media,abierto,Juan Perez,2026-02-12 11:00,,,email,Posible fraude interno,8
+INC-027,Globant,ransomware,CRITICA,CERRADO,Ana Gomez,2026-02-14 01:20,2026-02-14 01:40,2026-02-14 09:00,EDR,Alerta de comportamiento ransomware,1
+INC-028,Banco Rio,malware,alta,cerrado,Lucia Fernandez,2026-02-15 13:00,2026-02-15 14:00,2026-02-16 10:00,EDR,Archivo adjunto malicioso,4
+INC-029,Techint,vulnerabilidad,MEDIA,cerrado,Marcos Lopez,2026-02-18 08:00,2026-02-18 08:45,2026-02-20 16:00,scanner,Parche de sistema operativo pendiente,8
+INC-030,ACME SA,exfiltracion,critica,en análisis,Juan Perez,2026-02-20 21:00,2026-02-20 21:30,,SIEM,Transferencia fuera de patrón,1
