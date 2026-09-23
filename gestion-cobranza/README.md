@@ -25,8 +25,6 @@ El dashboard está orientado a responder preguntas de negocio como:
 
 El archivo contiene información ficticia organizada en tablas de clientes y gestiones. La tabla `Clientes` contiene la identificación, localidad, provincia, estado de cuenta, días de mora y saldo pendiente. La tabla `Gestiones` registra las acciones de contacto, campañas, canales, resultados, compromisos de pago, montos recuperados y fechas.
 
-El dataset no contiene información real de personas ni de empresas. Fue creado exclusivamente con fines educativos y de portfolio.
-
 ## Medidas DAX
 
 El informe incluye ocho medidas principales:
@@ -66,7 +64,3 @@ Compara los resultados de las campañas y el rendimiento de los canales de conta
 El informe permite pasar de un listado operativo de clientes y gestiones a una lectura orientada a la toma de decisiones. La segmentación por mora y saldo ayuda a priorizar la cartera, mientras que la comparación de campañas y canales permite reconocer dónde se concentra el recupero.
 
 También se observa la importancia de analizar los resultados junto con sus denominadores: una campaña puede tener muchas gestiones, pero no necesariamente la mejor tasa de contacto o el mayor recupero promedio. Por eso el dashboard combina volumen, efectividad y monto recuperado.
-
-## Alcance y limitaciones
-
-Los datos son simulados y no representan una operación real. Los umbrales de clasificación, las campañas y los resultados fueron definidos para fines educativos. En un entorno productivo sería necesario incorporar controles de calidad, actualización automática, permisos de acceso y reglas de negocio validadas por la organización.
