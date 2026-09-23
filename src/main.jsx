@@ -39,6 +39,14 @@ const projects = [
     link: 'https://github.com/fernandezmaximiliano255-spec/tapizados-express-ai',
     linkLabel: 'Ver código en GitHub ↗',
   },
+  {
+    title: 'Gestión de cobranza',
+    description: 'Dashboard de análisis de cartera y gestiones de cobranza para una empresa ficticia argentina. Integra clientes, saldos pendientes, mora, campañas, canales de contacto y resultados de gestión.',
+    conclusion: 'El informe permite identificar la composición de la cartera, priorizar clientes según mora y saldo, comparar campañas y canales, y monitorear el recupero mediante indicadores de gestión. El dataset es ficticio y fue diseñado para demostrar un flujo completo de análisis en Excel y Power BI.',
+    tags: ['Excel', 'Power BI', 'DAX', 'Análisis de cartera'],
+    link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/gestion-cobranza',
+    linkLabel: 'Ver documentación en GitHub ↗',
+  },
 ];
 
 function App() {
