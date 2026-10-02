@@ -47,6 +47,19 @@ const projects = [
     link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/gestion-cobranza',
     linkLabel: 'Ver documentación en GitHub ↗',
   },
+  {
+    title: 'Brava Café: predicción de campaña',
+    description: 'Proyecto de ciencia de datos para una empresa ficticia argentina de café de especialidad. Analiza una campaña de promoción de Colombia 250 g y predice qué clientes tienen mayor probabilidad de responder.',
+    conclusion: 'El modelo identificó que los pedidos de café de origen, el uso de cupones, la frecuencia de compra y el contacto por WhatsApp se relacionan con una mayor probabilidad de respuesta. La regresión logística alcanzó 66,67% de exactitud y detectó 16 de los 18 clientes que respondieron.',
+    tags: ['Python', 'pandas', 'Machine Learning', 'Regresión logística'],
+    link: 'https://github.com/fernandezmaximiliano255-spec/portfolio-data/tree/main/brava-cafe-ciencia-datos',
+    linkLabel: 'Ver proyecto en GitHub ↗',
+    resources: [
+      { href: '/brava-cafe-readme.md', label: 'Ver documentación ↗' },
+      { href: '/brava_cafe_campania.xlsx', label: 'Descargar Excel ↗' },
+      { href: '/analisis_campania.py', label: 'Ver código Python ↗' },
+    ],
+  },
 ];
 
 function App() {
@@ -61,7 +74,7 @@ function App() {
     <section className="about shell section-grid"><div><p className="eyebrow">Sobre mí</p><h2>Análisis de datos con foco en resultados</h2></div><p className="muted">Soy Maximiliano Gabriel Fernández, tengo 34 años y estudio la Tecnicatura en Sistemas en el IFTS N°11. Estoy orientando mi perfil hacia el análisis de datos, combinando formación en Python, SQL, Power BI y Excel avanzado con más de 7 años de experiencia en ámbitos administrativos y legales, donde desarrollé una sólida capacidad para organizar información y elaborar reportes.</p></section>
     <section className="skills shell section-grid"><div><p className="eyebrow">Herramientas</p><h2>Datos que se entienden.</h2></div><p className="muted">Power BI · Excel avanzado · Python · SQL · PostgreSQL · DBeaver · Visual Studio Code · IA aplicada al análisis de datos</p></section>
     <section className="experience shell section-grid"><div><p className="eyebrow">Experiencia</p><h2>Precisión aplicada a los datos</h2></div><p className="muted">Mi paso por áreas administrativas y legales moldeó una forma de trabajar basada en el detalle y el pensamiento crítico. Hoy uso esa misma disciplina para convertir información compleja en reportes claros y accionables.</p></section>
-    <section className="projects shell" id="proyectos"><div className="section-heading"><div><p className="eyebrow">Trabajos realizados</p><h2>Proyectos y análisis</h2></div><a className="text-link" href="/cv.pdf" target="_blank" rel="noreferrer">Ver CV ↗</a></div><div className="project-list">{projects.map((project, index) => <article className="project-card" key={project.title}><div className="project-number">01 / 0{index + 1}</div><h3>{project.title}</h3><p className="muted">{project.description}</p>{project.conclusion && <p className="project-conclusion"><strong>Conclusión</strong>{project.conclusion}</p>}<div className="tags">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>{(project.link || project.pdf || project.web) && <div className="project-actions">{project.link && <a href={project.link} target="_blank" rel="noreferrer">{project.linkLabel || 'Ver proyecto ↗'}</a>}{project.pdf && <a href={project.pdf} target="_blank" rel="noreferrer">Ver dashboard en PDF ↗</a>}{project.web && <a href={project.web} target="_blank" rel="noreferrer">Ver dashboard web ↗</a>}</div>}</article>)}</div></section>
+    <section className="projects shell" id="proyectos"><div className="section-heading"><div><p className="eyebrow">Trabajos realizados</p><h2>Proyectos y análisis</h2></div><a className="text-link" href="/cv.pdf" target="_blank" rel="noreferrer">Ver CV ↗</a></div><div className="project-list">{projects.map((project, index) => <article className="project-card" key={project.title}><div className="project-number">01 / 0{index + 1}</div><h3>{project.title}</h3><p className="muted">{project.description}</p>{project.conclusion && <p className="project-conclusion"><strong>Conclusión</strong>{project.conclusion}</p>}<div className="tags">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>{(project.link || project.pdf || project.web || project.resources) && <div className="project-actions">{project.link && <a href={project.link} target="_blank" rel="noreferrer">{project.linkLabel || 'Ver proyecto ↗'}</a>}{project.pdf && <a href={project.pdf} target="_blank" rel="noreferrer">Ver dashboard en PDF ↗</a>}{project.web && <a href={project.web} target="_blank" rel="noreferrer">Ver dashboard web ↗</a>}{project.resources?.map((resource) => <a key={resource.href} href={resource.href} target="_blank" rel="noreferrer">{resource.label}</a>)}</div>}</article>)}</div></section>
     <section className="contact shell" id="contacto"><p className="eyebrow">Contacto</p><h2>¿Hablamos de datos?</h2><p className="muted contact-copy">Me encuentro en búsqueda activa de oportunidades como Data Analyst Junior, con interés particular en proyectos de análisis de datos y Business Intelligence.</p><div className="contact-links"><a href="mailto:fernandezmaximiliano255@gmail.com">fernandezmaximiliano255@gmail.com</a><a href="tel:+541162203722">+54 11 6220 3722</a><a href="https://www.linkedin.com/in/maximiliano-gabriel-fernandez-38791a2b5/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></section>
   </main>;
 }
